@@ -4,7 +4,7 @@ int isPrime(int a)
 {
     if(a <= 1)  // 1 and numbers less than 1 are not prime
         return 0;
-    for(int j=2;j*j<a;j++)
+    for(int j=2;j*j<=a;j++)
     {
         if(a%j==0)
         {

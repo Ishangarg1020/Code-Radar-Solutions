@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 char* welcome() {
@@ -6,8 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    float a,b;
-    scanf("%f %f",&a,&b);
-    printf("Product: %.2f",a*b);
+    int i;
+    scanf("%d",&i);
+    printf("Hexadecimal: %X",i);
+    printf("\nOctal: %o",i);
     return 0;
 }

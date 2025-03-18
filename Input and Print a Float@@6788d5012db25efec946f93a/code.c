@@ -2,14 +2,12 @@
 
 char* welcome() {
     return "Welcome to Code Radar!";
-
-    float f;
-    scanf("%f",f);
-    printf("you entered : %f",f);
-    
 }
 
 int main() {
-    printf("%s", welcome());
+    float f;
+    scanf("%f",&f);
+    printf("You entered: %.2f",f);
+
     return 0;
 }

@@ -9,7 +9,7 @@ int main()
     int count=0;
     for(int a=0;a<N;a++)
     {
-        scanf("%d",arr[a]);
+        scanf("%d",&arr[a]);
         if(arr[a]==K)
         {
             count+=1;

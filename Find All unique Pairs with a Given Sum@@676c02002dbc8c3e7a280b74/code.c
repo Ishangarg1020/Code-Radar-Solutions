@@ -11,7 +11,7 @@ int main()
         scanf("%d",&arr[i]);
         // ish[N]=arr[N];
     }
-    scanf("%d",T);
+    scanf("%d",&T);
     for(int a=0;a<N;a++)
     {
         for(int b=0;b<N;b++)

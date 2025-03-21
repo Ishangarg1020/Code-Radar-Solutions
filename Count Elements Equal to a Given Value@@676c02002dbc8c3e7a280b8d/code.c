@@ -14,12 +14,8 @@ int main()
         {
             count+=1;
         }
-        else 
-        {
-            continue;
-        }
     }
-    printf("%d",K);
+    printf("%d",count);
 
 
     

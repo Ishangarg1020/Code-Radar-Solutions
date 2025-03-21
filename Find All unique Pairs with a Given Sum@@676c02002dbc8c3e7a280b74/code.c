@@ -20,6 +20,7 @@ int main()
             sum=arr[a]+arr[b+1];
             if(sum==T)
             {
+                printf("sum");
                 printf("%d %d\n",arr[a],arr[b]);
             }
         }

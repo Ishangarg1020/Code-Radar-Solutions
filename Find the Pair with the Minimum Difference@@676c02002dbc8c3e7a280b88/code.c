@@ -23,14 +23,28 @@
         {
             for(int j=i+1;j<N;j++)
             {
+                if(arr[i]>arr[j])
+                {
                     dif=abs(arr[i]-arr[j]);
                     if(dif<min)
                     {
                         min=dif;
                         a=arr[i];
                         b=arr[j];
-                        
+                            
                     }
+                }
+                else
+                {
+                    dif=abs(arr[j]-arr[i]);
+                    if(dif<min)
+                    {
+                        min=dif;
+                        a=arr[i];
+                        b=arr[j];
+                            
+                    }
+                }
 
             }
         }

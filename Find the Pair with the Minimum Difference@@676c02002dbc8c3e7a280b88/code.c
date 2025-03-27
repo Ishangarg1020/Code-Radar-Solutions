@@ -29,7 +29,7 @@
                         min=dif;
                         a=arr[i];
                         b=arr[j];
-                        return a,b
+                        return a,b;
                     }
 
             }

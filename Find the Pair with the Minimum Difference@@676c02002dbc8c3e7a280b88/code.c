@@ -34,7 +34,7 @@
 
             }
         }
-        printf("%d %d",a,b);
+        printf("%d",min);
     }
     
  }

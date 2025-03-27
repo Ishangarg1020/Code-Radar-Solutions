@@ -11,7 +11,7 @@
         scanf("%d",&arr[i]);
     }
     int min=arr[0]-arr[1];
-    int a,b;
+    int a=0,b=0;
     if(N==1)
     {
         printf("-1");
@@ -29,7 +29,7 @@
                         min=dif;
                         a=arr[i];
                         b=arr[j];
-                        return a,b;
+                        
                     }
 
             }

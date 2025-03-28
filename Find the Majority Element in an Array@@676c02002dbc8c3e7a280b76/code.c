@@ -24,9 +24,12 @@ int main()
         if(count>N/2)
         {
             printf("%d",arr[a]);
-            return count;
             break;
             // break;
+        }
+        else if(a==N-1)
+        {
+            printf("-1");
         }
         // else
         // {
@@ -39,3 +42,7 @@ int main()
         printf("-1");
     }
 }
+
+
+
+

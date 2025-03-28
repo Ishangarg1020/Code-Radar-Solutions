@@ -14,7 +14,7 @@ int main()
     {
         for(int b=a+1;a<N;a++)
         {
-            if(arr[b]<arr[a])
+            if(arr[a]>arr[b])
             {
                 int a,b;
                 b=arr[b];
@@ -23,9 +23,4 @@ int main()
             }
         }
     }
-    for(int i=0;i<N;i++)
-    {
-        printf("%d ",arr[i]);
-    }
-
 }

@@ -9,9 +9,10 @@ int main()
         scanf("%d",&arr[i]);
 
     }
-    int count=1;
-    for(int a=0;a<N/2;a++)
+    
+    for(int a=0;a<N;a++)
     {
+        int count=1;
         for(int b=a+1;b<N;b++)
         {
             
@@ -20,15 +21,15 @@ int main()
                 count+=1;
             }
         }
-        if(count==N/2)
+        if(count>N/2)
         {
             printf("%d",arr[a]);
-            break;
+            // break;
         }
         else
         {
             printf("-1");
-            break;
+            // break;
         }
     }
 }

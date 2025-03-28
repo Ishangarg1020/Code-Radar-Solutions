@@ -14,7 +14,7 @@ int main()
     scanf("%d",&T);
     for(int a=0;a<N;a++)
     {
-        for(int b=0;b<N;b++)
+        for(int b=a+1;b<N;b++)
         {
             int sum=0;
             sum=arr[a]+arr[b+1];

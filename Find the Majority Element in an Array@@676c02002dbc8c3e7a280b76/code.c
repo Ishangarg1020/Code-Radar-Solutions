@@ -9,11 +9,12 @@ int main()
         scanf("%d",arr[i]);
 
     }
+    int count=1;
     for(int a=0;a<N;a++)
     {
         for(int b=a+1;b<N;b++)
         {
-            int count=1;
+            
             if(arr[b]==arr[a])
             {
                 count+=1;

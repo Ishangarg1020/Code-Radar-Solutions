@@ -23,9 +23,12 @@
         {
             for(int j=i+1;j<N;j++)
             {
-                if(arr[i]>arr[j])
-                {
+                
                     dif=arr[i]-arr[j];
+                    if(dif<0)
+                    {
+                        dif=-dif;
+                    }
                     if(dif<min)
                     {
                         min=dif;
@@ -33,18 +36,7 @@
                         b=arr[j];
                             
                     }
-                }
-                else
-                {
-                    dif=arr[j]-arr[i];
-                    if(dif<min)
-                    {
-                        min=dif;
-                        a=arr[i];
-                        b=arr[j];
-                            
-                    }
-                }
+                
 
             }
         }

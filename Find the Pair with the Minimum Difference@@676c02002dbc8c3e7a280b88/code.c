@@ -10,7 +10,7 @@
     {
         scanf("%d",&arr[i]);
     }
-    int min=arr[0]-arr[1];
+    int min=__INT_MAX__;
     int a=0,b=0;
     if(N==1)
     {
@@ -31,7 +31,6 @@
                         min=dif;
                         a=arr[i];
                         b=arr[j];
-                        printf("min1");
                             
                     }
                 }
@@ -43,14 +42,13 @@
                         min=dif;
                         a=arr[i];
                         b=arr[j];
-                        printf("min2");
                             
                     }
                 }
 
             }
         }
-        // printf("%d",min);
+        printf("%d %d",a,b);
     }
     
  }

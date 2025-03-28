@@ -37,10 +37,7 @@ int main()
         //     // break;
         // }
     }
-    if(count<=N/2)
-    {
-        printf("-1");
-    }
+    
 }
 
 

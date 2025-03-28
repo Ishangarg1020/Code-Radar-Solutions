@@ -17,7 +17,7 @@ int main()
         for(int b=a+1;b<N;b++)
         {
             int sum=0;
-            sum=arr[a]+arr[b+1];
+            sum=arr[a]+arr[b];
             if(sum==T)
             {
                 // printf("%d",sum);

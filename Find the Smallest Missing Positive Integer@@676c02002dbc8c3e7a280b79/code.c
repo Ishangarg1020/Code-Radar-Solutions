@@ -16,9 +16,9 @@ int main()
         {
             if(arr[a]>arr[b])
             {
-                int b=arr[b];
+                int f=arr[b];
                 arr[b]=arr[a];
-                arr[a]=b;
+                arr[a]=f;
             }
         }
     }

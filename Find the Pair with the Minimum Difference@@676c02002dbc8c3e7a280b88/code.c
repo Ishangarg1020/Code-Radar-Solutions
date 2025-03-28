@@ -26,7 +26,7 @@
                 if(arr[i]>arr[j])
                 {
                     dif=arr[i]-arr[j];
-                    if(dif<min)
+                    if(dif<=min)
                     {
                         min=dif;
                         a=arr[i];
@@ -37,7 +37,7 @@
                 else
                 {
                     dif=arr[j]-arr[i];
-                    if(dif<min)
+                    if(dif<=min)
                     {
                         min=dif;
                         a=arr[i];

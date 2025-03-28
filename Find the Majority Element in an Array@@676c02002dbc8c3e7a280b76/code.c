@@ -33,4 +33,5 @@ int main()
         //     // break;
         // }
     }
+    printf("-1");
 }

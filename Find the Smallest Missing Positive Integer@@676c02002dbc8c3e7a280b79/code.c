@@ -16,8 +16,7 @@ int main()
         {
             if(arr[a]>arr[b])
             {
-                int b;
-                b=arr[b];
+                int b=arr[b];
                 arr[b]=arr[a];
                 arr[a]=b;
             }

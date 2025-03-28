@@ -16,11 +16,15 @@ int main()
         {
             if(arr[a]>arr[b])
             {
-                int a,b;
+                int b;
                 b=arr[b];
                 arr[b]=arr[a];
                 arr[a]=b;
             }
         }
+    }
+    for(int i=0;i<N;i++)
+    {
+        printf("%d",arr[i]);
     }
 }

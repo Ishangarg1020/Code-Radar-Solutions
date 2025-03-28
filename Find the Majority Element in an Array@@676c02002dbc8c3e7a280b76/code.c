@@ -24,6 +24,7 @@ int main()
         if(count>N/2)
         {
             printf("%d",arr[a]);
+            return count;
             break;
             // break;
         }

@@ -33,5 +33,8 @@ int main()
         //     // break;
         // }
     }
-    // printf("-1");
+    if(count<=N/2)
+    {
+        printf("-1");
+    }
 }

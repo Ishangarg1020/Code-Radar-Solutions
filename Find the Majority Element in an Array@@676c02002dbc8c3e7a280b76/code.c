@@ -10,7 +10,7 @@ int main()
 
     }
     int count=1;
-    for(int a=0;a<N;a++)
+    for(int a=0;a<N/2;a++)
     {
         for(int b=a+1;b<N;b++)
         {
@@ -28,6 +28,7 @@ int main()
         else
         {
             printf("-1");
+            break;
         }
     }
 }

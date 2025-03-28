@@ -12,7 +12,7 @@ int main()
     int index=0;
     for(int a=0;a<N;a++)
     {
-        for(int b=a+1;a<N;a++)
+        for(int b=a+1;b<N;a++)
         {
             if(arr[a]>arr[b])
             {

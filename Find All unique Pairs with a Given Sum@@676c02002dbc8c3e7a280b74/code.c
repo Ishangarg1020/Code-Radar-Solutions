@@ -21,7 +21,7 @@ int main()
             if(sum==T)
             {
                 // printf("%d",sum);
-                printf("%d %d\n",arr[a],arr[b+1]);
+                printf("%d %d\n",arr[a],arr[b]);
             }
         }
     }

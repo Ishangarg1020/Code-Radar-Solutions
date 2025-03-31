@@ -27,11 +27,11 @@ int main()
             
             // break;
 
-            // if(sum==T)
-            // {
-            //     // printf("%d",sum);
-            //     printf("%d %d\n",arr[a],arr[b]);
-            // }
+            if(sum==T)
+            {
+                // printf("%d",sum);
+                printf("%d %d\n",arr[a],arr[b]);
+            }
         }
         if(c==1)
         {

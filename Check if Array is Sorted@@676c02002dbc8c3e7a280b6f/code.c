@@ -14,9 +14,9 @@ int main(){
     if(N==1||c==1){
         printf("Sorted");
     }
-    // if(c==1){
-    //     printf("Sorted");
-    // }
+    if(c==1){
+        printf("Sorted");
+    }
     else{
         printf("Not Sorted");
     }

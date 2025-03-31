@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-    int N,T;
+    int N,T,c=0;
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++)
@@ -20,15 +20,22 @@ int main()
             // sum=arr[a]+arr[b];
             if(arr[a]==arr[b]){
                 printf("%d %d\n",arr[a],arr[b]);
+                c=1;
+
                 break;
             }
-            break;
             
+            // break;
+
             // if(sum==T)
             // {
             //     // printf("%d",sum);
             //     printf("%d %d\n",arr[a],arr[b]);
             // }
+        }
+        if(c==1)
+        {
+            break;
         }
     }
 }

@@ -16,8 +16,8 @@ int main()
     {
         for(int b=a+1;b<N;b++)
         {
-            int sum=0;
-            sum=arr[a]+arr[b];
+            // int sum=0;
+            // sum=arr[a]+arr[b];
             if(arr[a]==arr[b]){
                 printf("%d %d\n",arr[a],arr[b]);
                 break;

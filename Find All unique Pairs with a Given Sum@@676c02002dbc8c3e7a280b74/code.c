@@ -22,6 +22,8 @@ int main()
                 printf("%d %d\n",arr[a],arr[b]);
                 break;
             }
+            break;
+            
             // if(sum==T)
             // {
             //     // printf("%d",sum);

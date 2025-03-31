@@ -11,9 +11,9 @@ int main(){
             c=1;
         }
     }
-    if(N==1)[
+    if(N==1){
         printf("Sorted");
-    ]
+    }
     if(c==1){
         printf("Sorted");
     }

@@ -18,6 +18,10 @@ int main()
         {
             int sum=0;
             sum=arr[a]+arr[b];
+            if(arr[a]==arr[b]){
+                printf("%d %d\n",arr[a],arr[b]);
+                break;
+            }
             if(sum==T)
             {
                 // printf("%d",sum);

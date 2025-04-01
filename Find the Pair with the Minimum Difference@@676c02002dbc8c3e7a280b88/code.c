@@ -29,18 +29,18 @@
                     {
                         dif=-dif;
                     }
-                    if(dif<min)
+                    if(dif<=min)
                     {
                         min=dif;
                         a=arr[i];
                         b=arr[j];
                             
                     }
-                    else if(dif==min && arr[i]<a||arr[j]<b)
-                    {
-                            a=arr[i];
-                            b=arr[j];
-                    }
+                    // else if(dif==min && arr[i]<a||arr[j]<b)
+                    // {
+                    //         a=arr[i];
+                    //         b=arr[j];
+                    // }
             }
         }
         if(a<b)

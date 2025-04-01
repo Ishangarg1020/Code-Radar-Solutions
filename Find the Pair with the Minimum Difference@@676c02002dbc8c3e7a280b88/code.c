@@ -36,11 +36,11 @@
                         b=arr[j];
                             
                     }
-                    // else if(dif==min && arr[i]<a||arr[j]<b)
-                    // {
-                    //         a=arr[i];
-                    //         b=arr[j];
-                    // }
+                    else if(dif==min && arr[i]<a)
+                    {
+                            a=arr[i];
+                            b=arr[j];
+                    }
             }
         }
         if(a<b)

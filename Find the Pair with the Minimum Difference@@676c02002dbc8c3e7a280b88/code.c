@@ -29,7 +29,7 @@
                     {
                         dif=-dif;
                     }
-                    if(dif<=min)
+                    if(dif<min)
                     {
                         min=dif;
                         a=arr[i];

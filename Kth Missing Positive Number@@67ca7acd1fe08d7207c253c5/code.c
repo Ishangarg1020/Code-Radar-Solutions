@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void miss(int arr[],int n,int k)
+int miss(int arr[],int n,int k)
 {
     int index=0,current=1,missing=0;
     while(missing<k)
